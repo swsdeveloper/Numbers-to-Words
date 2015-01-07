@@ -14,7 +14,6 @@
 		0AAABB641A43E0E1009E158C /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0AAABB631A43E0E1009E158C /* Images.xcassets */; };
 		0AAABB671A43E0E1009E158C /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0AAABB651A43E0E1009E158C /* LaunchScreen.xib */; };
 		0AAABB731A43E0E1009E158C /* NumbersToWordsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0AAABB721A43E0E1009E158C /* NumbersToWordsTests.m */; };
-		0AAABB7D1A43E26C009E158C /* Plan.txt in Resources */ = {isa = PBXBuildFile; fileRef = 0AAABB7C1A43E26C009E158C /* Plan.txt */; };
 		0AAABB811A5DA8D9009E158C /* NumberTranslator.m in Sources */ = {isa = PBXBuildFile; fileRef = 0AAABB801A5DA8D9009E158C /* NumberTranslator.m */; };
 /* End PBXBuildFile section */
 
@@ -42,7 +41,6 @@
 		0AAABB6C1A43E0E1009E158C /* NumbersToWordsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NumbersToWordsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0AAABB711A43E0E1009E158C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0AAABB721A43E0E1009E158C /* NumbersToWordsTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NumbersToWordsTests.m; sourceTree = "<group>"; };
-		0AAABB7C1A43E26C009E158C /* Plan.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Plan.txt; sourceTree = "<group>"; };
 		0AAABB7E1A486C9F009E158C /* Constants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Constants.h; sourceTree = "<group>"; };
 		0AAABB7F1A5DA8D9009E158C /* NumberTranslator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NumberTranslator.h; sourceTree = "<group>"; };
 		0AAABB801A5DA8D9009E158C /* NumberTranslator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NumberTranslator.m; sourceTree = "<group>"; };
@@ -98,7 +96,6 @@
 				0AAABB631A43E0E1009E158C /* Images.xcassets */,
 				0AAABB651A43E0E1009E158C /* LaunchScreen.xib */,
 				0AAABB561A43E0E1009E158C /* Supporting Files */,
-				0AAABB7C1A43E26C009E158C /* Plan.txt */,
 			);
 			path = NumbersToWords;
 			sourceTree = "<group>";
@@ -210,7 +207,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				0AAABB621A43E0E1009E158C /* Main.storyboard in Resources */,
-				0AAABB7D1A43E26C009E158C /* Plan.txt in Resources */,
 				0AAABB671A43E0E1009E158C /* LaunchScreen.xib in Resources */,
 				0AAABB641A43E0E1009E158C /* Images.xcassets in Resources */,
 			);
@@ -426,6 +422,7 @@
 				0AAABB781A43E0E1009E158C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		0AAABB791A43E0E1009E158C /* Build configuration list for PBXNativeTarget "NumbersToWordsTests" */ = {
 			isa = XCConfigurationList;
@@ -434,6 +431,7 @@
 				0AAABB7B1A43E0E1009E158C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
